@@ -1,0 +1,7 @@
+resolver: lts-10.0
+packages:
+- .
+extra-deps:
+- statvfs-0.2
+flags: {}
+extra-package-dbs: []

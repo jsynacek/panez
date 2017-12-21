@@ -1,0 +1,25 @@
+name:                panez
+version:             0.0.1
+license:             GPL-2
+license-file:        LICENSE
+author:              Jan Synacek
+maintainer:          jan.synacek@gmail.com
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable panez
+  main-is:             Main.hs
+  ghc-options:         -threaded -Wall
+  build-depends:       base
+                     , containers
+                     , directory
+                     , filepath
+                     , lifted-base
+                     , statvfs
+                     , text
+                     , transformers
+                     , unix
+                     , vty
+                     , ghc-prim
+  default-language:    Haskell2010
